@@ -25,8 +25,6 @@ public class home_work11 {
         webDriver.get(str);
 
         Actions actions = new Actions(webDriver);
-        WebElement selectElement = webDriver.findElement(By.cssSelector("#out2"));
-        Select select = new Select(selectElement);
 
         try {
             List<WebElement> option = webDriver.findElements(By.tagName("option"));
