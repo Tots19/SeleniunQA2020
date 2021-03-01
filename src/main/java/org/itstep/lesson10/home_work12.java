@@ -25,7 +25,6 @@ public class home_work12 {
         Thread.sleep(2000);
         WebElement quit = null;
         try {
-
             quit = webDriver.findElement(By.cssSelector("body > ul > li.context-menu-item.context-menu-icon.context-menu-icon-quit > span"));
             quit.click();
             Thread.sleep(2000);
